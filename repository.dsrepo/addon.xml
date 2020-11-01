@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+    <addon id="repository.dsrepo" name="DsEtArToHke The Repo" version="10" provider-name="DsEtArToHke">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="DsEtArToHke The Repo">
+            <info compressed="false">https://raw.githubusercontent.com/DsEtArToHke/dsrepo/main/_zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/DsEtArToHke/dsrepo/main/_zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/DsEtArToHke/dsrepo/main/_zips/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>DsEtArToHke The Repo</summary>
+            <description>Download the latest addons from DsEtArToHke...........</description>
+            <platform>all</platform>
+            <genre>movies,usa</genre>
+        </extension>
+    </addon>
